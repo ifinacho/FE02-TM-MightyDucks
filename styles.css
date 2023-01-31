@@ -1,8 +1,10 @@
 *{
-    font-family: "Comic Sans MS", "Comic Sans", cursive;
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
 h1,h4{    
     font-style: italic;
@@ -49,4 +51,31 @@ div{
 }
 p{
     text-indent: 25px;
+}
+.bodyrules{
+    font-family: sans-serif;
+}
+.h1rules, .parraforules{    
+    font-style: normal;
+    text-align: center;
+    font-size: larger;
+}
+.h2rules{
+    text-align: start;
+    border: none;
+    font-size: larger;
+}
+ol, ul{
+    list-style-position: inside;    
+    font-size: larger;
+}
+.letras{
+    list-style-type:lower-alpha;
+    font-size: large;
+}
+ul{
+    list-style-type: circle;
+}
+.parraforules2{
+    font-size: larger;
 }
