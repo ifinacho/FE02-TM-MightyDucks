@@ -33,7 +33,7 @@ nav{
     top: 30px;
     right: 50px;
 }
-main{
+footer{
     margin-bottom: 50px;
 }
 h2{
@@ -44,15 +44,15 @@ h2{
     width: 10vw;
 }
 div{
-    display: inline-block;
+    display:inline-block;
 }
 .parrafos{
     width: 89vw;
 }
-p{
+p, .pfootergame1{
     text-indent: 25px;
 }
-.bodyrules{
+.bodyrules, .bodygame{
     font-family: sans-serif;
 }
 .h1rules, .parraforules{    
@@ -69,7 +69,7 @@ ol, ul{
     list-style-position: inside;    
     font-size: larger;
 }
-.letras{
+.olletras{
     list-style-type:lower-alpha;
     font-size: large;
 }
@@ -78,4 +78,40 @@ ul{
 }
 .parraforules2{
     font-size: larger;
+}
+.h1game{
+    font-style: normal;
+    text-align: center;   
+    font-size: 35px;
+}
+.navgame{
+    position: absolute;
+    top: 40px;
+    right: 50px;
+}
+table, .divgame, .footergame{
+    font-style: normal;
+    font-size:x-large;
+}
+table{
+    margin: 3rem;
+}
+section{
+    display: flex;
+    justify-content: center;
+}
+.pfootergame1, .pfootergame2{
+    display: inline-block;
+}
+.pfootergame2{
+    position: absolute;
+    right: 50px;
+}
+caption{
+    text-align: left;
+    padding-bottom: 1rem;
+}
+th, td{
+       padding-right: 80px;
+       padding-bottom: 10px;
 }
