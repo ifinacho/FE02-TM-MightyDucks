@@ -10,7 +10,7 @@ h1,h4{
     font-style: italic;
 }
 .banner{
-    background-image: url(./Assets/design1_image1.jpg);
+    background-image: url(./assets/design1_image1.jpg);
     width: 100%;
     height: 45vh;
     background-size: cover;
@@ -52,19 +52,14 @@ div{
 p, .pfootergame1{
     text-indent: 25px;
 }
-.h1rules, .parraforules{
+.parraforules{
     text-align: center;
     font-size: larger;
 }
 .navrules{    
     position: absolute;
-    top: 40px;
+    top: 47px;
     right: 50px;    
-}
-.h2rules{
-    text-align: start;
-    border: none;
-    font-size: larger;
 }
 ol, ul{
     list-style-position: inside;    
@@ -80,14 +75,14 @@ ul{
 .parraforules2{
     font-size: larger;
 }
-.h1game{
+.h1game, .h1rules{
     text-align: center;   
     font-size: 35px;
 }
 .h2game{
     border: none;
-    position:absolute;
-    left: 40%;
+    position: absolute;
+    font-size: 30px;
 }
 .navgame{
     position: absolute;
