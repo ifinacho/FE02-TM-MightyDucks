@@ -49,17 +49,12 @@ div{
 .parrafos{
     width: 89vw;
 }
-p, .pfootergame1{
+p{
     text-indent: 25px;
 }
 .parraforules{
     text-align: center;
     font-size: larger;
-}
-.navrules{    
-    position: absolute;
-    top: 47px;
-    right: 50px;    
 }
 ol, ul{
     list-style-position: inside;    
@@ -75,29 +70,32 @@ ul{
 .parraforules2{
     font-size: larger;
 }
-.h1game, .h1rules{
-    text-align: center;   
-    font-size: 35px;
-}
-.h2game{
-    border: none;
-    position: absolute;
-    font-size: 30px;
-}
-.navgame{
-    position: absolute;
-    top: 47px;
-    right: 50px;
-}
-table, .divgame{
-    font-size:x-large;
-}
-table{
+table{    
+    font-size: x-large;
     margin: 3rem;
 }
-section{
+.divgame1{
     display: flex;
     justify-content: center;
+}
+.divgame2{
+    font-size: x-large;
+    margin: 2rem;
+}
+.divgame3{
+    font-size: x-large;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+.divgame3>div{
+    margin: 2rem;
+}
+h3{
+    font-size: x-large;
+    margin: 2rem;
 }
 .pgame1, .pgame2{
     display: inline-block;
