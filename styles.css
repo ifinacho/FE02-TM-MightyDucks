@@ -113,14 +113,35 @@ th, td{
     padding-bottom: 10px;
 }
 form{
+    border: 2px solid black;
     margin: 1rem 15rem;
     font-size: x-large;
+    background-color: rgb(250, 250, 218);
 }
 fieldset{
     margin: 1rem;
+    padding: 1rem;
     display: flex;
     flex-wrap: wrap;
 }
+fieldset>fieldset{
+    border: none;
+    margin: 0;
+    padding: 0;
+}
 label{
     margin: 10px;
+}
+fieldset label{
+    display: block;
+}
+#boton{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: large;
+    display: flex;
+}
+#boton:hover{
+    background-color: aliceblue;
 }
