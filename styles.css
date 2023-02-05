@@ -112,3 +112,15 @@ th, td{
     padding-right: 80px;
     padding-bottom: 10px;
 }
+form{
+    margin: 1rem 15rem;
+    font-size: x-large;
+}
+fieldset{
+    margin: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+label{
+    margin: 10px;
+}
