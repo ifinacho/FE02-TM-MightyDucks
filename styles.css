@@ -6,6 +6,12 @@
 body{
     font-family: "Comic Sans MS", "Comic Sans", cursive;
 }
+main{
+    margin: 0 2rem;
+}
+footer{
+    margin-bottom: 50px;
+}
 h1,h4{    
     font-style: italic;
 }
@@ -33,21 +39,19 @@ nav{
     top: 30px;
     right: 50px;
 }
-footer{
-    margin-bottom: 50px;
-}
 h2{
     border: 1px solid black;
     text-align: center;
 }
-.logo{
-    width: 10vw;
-}
 div{
     display:inline-block;
 }
+.logo{
+    width: 10vw;
+}
 .parrafos{
-    width: 89vw;
+    width: 70vw;
+    font-size: larger;
 }
 p{
     text-indent: 25px;
@@ -73,6 +77,9 @@ ul{
 table{    
     font-size: x-large;
     margin: 3rem;
+    padding: 1rem;
+    background-color: beige;
+    border: 5px solid rgb(2, 0, 141);
 }
 .divgame1{
     display: flex;
@@ -109,11 +116,11 @@ caption{
     padding-bottom: 1rem;
 }
 th, td{
-    padding-right: 80px;
-    padding-bottom: 10px;
+    border: 1px solid black;
+    padding: 5px 80px 10px 15px;
 }
 form{
-    border: 2px solid black;
+    border: 3px solid black;
     margin: 1rem 15rem;
     font-size: x-large;
     background-color: rgb(250, 250, 218);
@@ -132,16 +139,30 @@ fieldset>fieldset{
 label{
     margin: 10px;
 }
+.h3registration{
+    margin: 1rem;
+}
+fieldset>p{
+    margin-bottom: 1rem;
+}
 fieldset label{
     display: block;
 }
+.spanregistration{
+    text-decoration: underline;
+}
+.boton{
+    display: flex;
+    justify-content: center;
+}
 #boton{
-    border: 1px solid black;
-    padding: 10px;
+    background-color: rgb(221, 221, 221);
+    margin: 1rem 0 2rem 0;
+    border: 2px solid rgb(42, 50, 126);
+    padding: 10px 15px;
     border-radius: 10px;
     font-size: large;
-    display: flex;
 }
 #boton:hover{
-    background-color: aliceblue;
+    background-color: rgb(210, 233, 255);
 }
