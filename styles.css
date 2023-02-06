@@ -56,6 +56,12 @@ div{
 p{
     text-indent: 25px;
 }
+
+
+/*Acá se aplicaría para rules*/
+
+
+
 .parraforules{
     text-align: center;
     font-size: larger;
@@ -74,6 +80,12 @@ ul{
 .parraforules2{
     font-size: larger;
 }
+
+
+/*Acá se aplicaría para game-info*/
+
+
+
 table{    
     font-size: x-large;
     margin: 3rem;
@@ -119,9 +131,20 @@ th, td{
     border: 1px solid black;
     padding: 5px 80px 10px 15px;
 }
+
+
+/*Acá se aplicaría para registration*/
+
+
+
+.divregistration{
+    display: flex;
+    justify-content: center;
+}
 form{
     border: 3px solid black;
-    margin: 1rem 15rem;
+    margin: 1rem;
+    width: 60vw;
     font-size: x-large;
     background-color: rgb(250, 250, 218);
 }
@@ -165,4 +188,18 @@ fieldset label{
 }
 #boton:hover{
     background-color: rgb(210, 233, 255);
+}
+
+/*Media Queries*/
+
+
+@media only screen and (max-width: 1200px){
+    form{
+        width: 70vw;
+    }    
+}
+@media only screen and (max-width: 700px){
+    form{
+        width: 100vw;
+    }
 }
