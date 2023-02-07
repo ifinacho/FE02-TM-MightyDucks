@@ -43,14 +43,17 @@ h2{
     border: 1px solid black;
     text-align: center;
 }
-div{
-    display:inline-block;
+.divparrafos{
+    display:flex;
+}
+.divparrafos>div{
+    margin: 1rem;
 }
 .logo{
     width: 10vw;
 }
 .parrafos{
-    width: 70vw;
+    width: 80vw;
     font-size: larger;
 }
 p{
@@ -64,7 +67,7 @@ p{
 
 .parraforules{
     text-align: center;
-    font-size: larger;
+    font-size: x-large;
 }
 ol, ul{
     list-style-position: inside;    
