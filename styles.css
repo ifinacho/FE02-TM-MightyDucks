@@ -139,6 +139,8 @@ th, td{
 .h3game{
     font-size: x-large;
     margin: 2rem;
+    text-align: center;
+    text-decoration: underline;
 }
 
 
@@ -199,6 +201,7 @@ fieldset label{
 #boton:hover{
     background-color: rgb(210, 233, 255);
 }
+
 
 /*Media Queries*/
 
