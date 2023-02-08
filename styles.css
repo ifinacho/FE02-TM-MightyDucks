@@ -12,7 +12,7 @@ main{
 footer{
     margin-bottom: 50px;
 }
-h1,h4{    
+h1, .h4parrafos{    
     font-style: italic;
 }
 .banner{
@@ -42,6 +42,7 @@ nav{
 h2{
     border: 1px solid black;
     text-align: center;
+    margin: 1rem;
 }
 .divparrafos{
     display:flex;
@@ -52,6 +53,9 @@ h2{
 .logo{
     width: 10vw;
 }
+h3{
+    margin: 1rem;
+}
 .parrafos{
     width: 80vw;
     font-size: larger;
@@ -61,13 +65,19 @@ p{
 }
 
 
-/*Acá se aplicaría para rules*/
+/*Style para rules*/
 
 
-
+.h3rules{
+    margin: 1rem;
+    font-size: x-large;
+}
 .parraforules{
     text-align: center;
     font-size: x-large;
+}
+.parraforules2{
+    font-size: larger;
 }
 ol, ul{
     list-style-position: inside;    
@@ -80,12 +90,10 @@ ol, ul{
 ul{
     list-style-type: circle;
 }
-.parraforules2{
-    font-size: larger;
-}
 
 
-/*Acá se aplicaría para game-info*/
+
+/*Style para game-info*/
 
 
 
@@ -96,8 +104,17 @@ table{
     background-color: beige;
     border: 5px solid rgb(2, 0, 141);
 }
+caption{
+    text-align: left;
+    padding-bottom: 1rem;
+}
+th, td{
+    border: 1px solid black;
+    padding: 5px 80px 10px 15px;
+}
 .divgame1{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .divgame2{
@@ -112,31 +129,21 @@ table{
     align-items: flex-start;
     align-content: flex-start;
 }
+.divgame2>div{
+    display: flex;
+    justify-content: space-between;
+}
 .divgame3>div{
     margin: 2rem;
 }
-h3{
+.h3game{
     font-size: x-large;
     margin: 2rem;
 }
-.pgame1, .pgame2{
-    display: inline-block;
-}
-.pgame2{
-    position: absolute;
-    right: 50px;
-}
-caption{
-    text-align: left;
-    padding-bottom: 1rem;
-}
-th, td{
-    border: 1px solid black;
-    padding: 5px 80px 10px 15px;
-}
 
 
-/*Acá se aplicaría para registration*/
+
+/*Style para registration*/
 
 
 
@@ -197,11 +204,23 @@ fieldset label{
 
 
 @media only screen and (max-width: 1200px){
+    table{
+        font-size: larger;
+    }
+    th, td{
+        padding: 5px 59px 5px 10px;
+    }
     form{
         width: 70vw;
     }    
 }
 @media only screen and (max-width: 700px){
+    table{
+        font-size: small;
+    }
+    th, td{
+        padding: 5px 23px 5px 5px;
+    }
     form{
         width: 100vw;
     }
