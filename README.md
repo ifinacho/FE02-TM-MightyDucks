@@ -1,2 +1,1 @@
-# FE02-TM-Task1
-Tarea de subir al repositorio de GitHub
+MindHub - Desarrollo FrontEnd - Proyecto "Migthy Ducks" en HTML y CSS
